@@ -576,7 +576,7 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText("Mod by", 15);
+					createCoolText(["Mod by"], 15);
 				// credTextShit.visible = true;
 				case 3:
 					addMoreText('Homeannor', 15);
@@ -590,7 +590,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					createCoolText("Add him up", -40);
+					createCoolText(["Add him up"], -40);
 				case 7:
 					addMoreText("To your Discord", -40);
 					ngSpr.visible = true;
@@ -603,7 +603,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 9:
-					createCoolText("Play House Vibe");
+					createCoolText(["Play House Vibe"]);
 				// credTextShit.visible = true;
 				case 11:
 					addMoreText("On Roblox");

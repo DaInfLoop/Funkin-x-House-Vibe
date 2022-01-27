@@ -576,20 +576,12 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
-					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-					#end
+					createCoolText("Mod by", 15)
 				// credTextShit.visible = true;
 				case 3:
-					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('bb-panzu', 15);
-					#else
-					addMoreText('present');
-					#end
+					addMoreText('Homeannor', 15);
+					addMoreText('DaInfLoop', 15);
+					addMoreText('powered by Psych', 15);
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 4:
@@ -598,13 +590,9 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'In association \nwith';
 				// credTextShit.screenCenter();
 				case 5:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
-					#else
-					createCoolText(['In association', 'with'], -40);
-					#end
+					createCoolText("Add him up", -40);
 				case 7:
-					addMoreText('newgrounds', -40);
+					addMoreText("To your Discord", -40);
 					ngSpr.visible = true;
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
@@ -615,10 +603,10 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
 				case 9:
-					createCoolText([curWacky[0]]);
+					createCoolText("Play House Vibe");
 				// credTextShit.visible = true;
 				case 11:
-					addMoreText(curWacky[1]);
+					addMoreText("On Roblox");
 				// credTextShit.text += '\nlmao';
 				case 12:
 					deleteCoolText();
@@ -626,13 +614,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('House Vibe');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('House Vibe');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Wait why is it red'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();

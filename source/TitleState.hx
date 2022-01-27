@@ -576,7 +576,7 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText("Mod by", 15)
+					createCoolText("Mod by", 15);
 				// credTextShit.visible = true;
 				case 3:
 					addMoreText('Homeannor', 15);
